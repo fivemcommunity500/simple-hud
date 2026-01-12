@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="hud-container">
+        <div class="info-wrapper">
+            <div class="info-box job">💼 <span id="job">...</span> - <span id="grade">...</span></div>
+            <div class="info-box cash">💵 <span id="cash">0</span>€</div>
+            <div class="info-box bank">💳 <span id="bank">0</span>€</div>
+            <div id="black-container" class="info-box black" style="display:none;">💀 <span id="black">0</span>€</div>
+        </div>
+
+        <div class="header-hud">
+            <img src="server_logo.png" class="logo" id="server-logo">
+            <div class="player-id">ID: <span id="id">0</span></div>
+        </div>
+    </div>
+
+    <div id="notification-container"></div>
+
+    <script src="main.js" type="text/javascript"></script>
+</body>
+</html>
